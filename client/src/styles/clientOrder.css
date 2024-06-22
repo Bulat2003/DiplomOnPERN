@@ -1,0 +1,214 @@
+.clientsOrder-container {
+    box-sizing: border-box;
+    padding: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clientsOrder-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.clientsOrder-title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.clientsOrder-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clientsOrder-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.clientsOrder-card {
+    width: 270px;
+    height: 400px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    margin: 50px 2rem;
+}
+
+.clientsOrder-card:hover {
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+
+.clientsOrder-item-header {
+    background-color: #C4C4C4;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.clientsOrder-number {
+    font-size: 18px;
+    color: #488286;
+    margin: 0;
+}
+
+.clientsOrder-status {
+    font-size: 25px;
+    color: #488286;
+    text-align: start;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.clientsOrder-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.clientsOrder-date,
+.clientsOrder-address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 10px;
+}
+
+.clientsOrder-label {
+    margin: 0;
+    font-size: 14px;
+    color: #8d8d8d;
+}
+
+.clientsOrder-text {
+    margin: 0;
+    font-size: 18px;
+    color: #373E40;
+    text-align: left;
+}
+
+.cancel-btn {
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+/*-------Кнопка удалить-------*/
+.btn2 {
+    position: relative;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-left: 65%;
+    border: 1px solid #4f4f4f;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    z-index: 1;
+}
+
+.btn2:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: #dc3545;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+.btn2:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #dc3545;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+.btn2:hover {
+    color: #ffffff;
+    border: 1px solid #dc3545;
+}
+
+.btn2:hover:before {
+    top: -35%;
+    background-color: #dc3545;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.btn2:hover:after {
+    top: -45%;
+    background-color: #dc3545;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.no-orders-div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.no-orders-div h3 img {
+    margin: 10px;
+    align-items: center;
+}
+.clientsOrder-details-driver,
+.clientsOrder-address-driver
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    width: 100%;
+}
+.status-change{
+    position: relative;
+    display: inline-block;
+    padding: 10px, 5px;
+    margin-left: 12%;
+    width: 200px;
+    margin-top: 15%;
+}

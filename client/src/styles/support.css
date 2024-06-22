@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", sans-serif;
+    font-weight: 700;
+}
+.main-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.support-container{
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.support-title{
+    justify-content: center;
+    color: #488286;
+    font-size: 25px;
+    display: flex;
+    padding-bottom: 15px;
+}
+.support-container-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+.support-text{
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    color: #373E40;
+}

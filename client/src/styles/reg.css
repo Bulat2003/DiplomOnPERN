@@ -1,0 +1,71 @@
+.registration-container{
+    box-sizing: border-box;
+}
+.registration-card{
+    padding: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registration-form{
+    margin: 15px;
+}
+
+.registration-input {
+    border: 2px solid #488286;
+    border-radius: 15px;
+    height: 50px;
+    color: #488286; /* Цвет текста в поле */
+}
+
+.registration-input::placeholder {
+    color: #488286; /* Цвет placeholder */
+}
+
+/* Переопределение стилей для option */
+.registration-input option {
+    color: #488286; /* Цвет текста внутри option */
+}
+.registration-input[type=password] {
+    font-size: 30px;
+    padding: 5px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    width: 100%;
+}
+.registration-button{
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #488286;
+    border: #488286;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.registration-button:hover{
+    background-color: #366767;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.registration-label {
+    margin-top: 15px;
+    display: block;
+    padding: 0;
+    color: #373E40;
+}
+.registration-route{
+    display: flex;
+}
+.registration-text{
+    color: #373E40;
+}
+.registration-link{
+    text-decoration: none;
+    margin-left: 5px;
+}
+

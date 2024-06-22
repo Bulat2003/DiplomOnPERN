@@ -1,0 +1,83 @@
+.addCar-container {
+    box-sizing: border-box;
+}
+
+.addCar-card {
+    padding: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addCar-form {
+    margin: 15px;
+}
+
+.addCar-input {
+    border: 2px solid #488286;
+    border-radius: 15px;
+    height: 50px;
+    color: #488286; /* Цвет текста в поле */
+}
+
+.addCar-input::placeholder {
+    color: #488286; /* Цвет placeholder */
+}
+
+.addCar-input[type=password] {
+    font-size: 30px;
+    padding: 5px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    width: 100%;
+}
+
+.addCar-button {
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #488286;
+    border: #488286;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.addCar-button-exit {
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    color: red;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.addCar-button:hover {
+    background-color: #366767;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.addCar-label {
+    margin-top: 15px;
+    display: block;
+    padding: 0;
+    color: #373E40;
+}
+
+.addCar-route {
+    display: flex;
+}
+
+.addCar-text {
+    color: #373E40;
+}
+
+.addCar-link {
+    text-decoration: none;
+    margin-left: 5px;
+}

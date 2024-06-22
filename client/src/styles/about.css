@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.about-container img {
+    max-width: 250px; /* Максимальная ширина изображений */
+    max-height: 250px; /* Максимальная высота изображений */
+    display: grid;
+}
+
+.about-us,
+.drivers,
+.communication,
+.supports {
+    max-width: 1200px; /* Максимальная ширина блоков */
+    margin: 0 auto 20px; /* Центрирование блоков и добавление отступа снизу */
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.inner-text{
+ padding: 5px;
+}
+.main-text{
+    color: #488286;
+    padding: 0 10px;
+}
+.second-text{
+    color: #373E40;
+    padding: 0 10px;
+}
+.p-text{
+    justify-content: end;
+}

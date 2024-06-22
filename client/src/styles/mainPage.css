@@ -1,0 +1,172 @@
+.fullPage{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #373E40;
+}
+.slogan-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 5%;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.control p {
+    color: #373E40;
+}
+.control img {
+    margin-right: 5px;
+}
+
+.offers-container {
+    margin: 20px;
+    width: 1300px;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-bottom: 20px;
+    background-color: rgba(119, 135, 139, 0.25); /* Прозрачный фон */
+    width: 1300px;
+    display: flex;
+    padding: 15px;
+    border: 2px solid rgba(119, 135, 139, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer img {
+    width: 100px;
+    margin-right: 20px; /* Добавил отступ справа для изображения */
+}
+
+.offer-info,
+.offer-price,
+.offer-insurance,
+.offer-advance {
+    flex: 1; /* Расширяем элементы, чтобы занимали всё доступное пространство */
+}
+
+.name {
+    font-size: 20px;
+}
+
+.payload {
+    color: #373E40;
+}
+
+.button {
+    background-color: #488286;
+    width: 200px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #366767;
+}
+
+
+/*Кнопка заказать*/
+.cssbuttons-io-button {
+    background: #488286;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #488299;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #488286;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #488286;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+
+
+
+  .no-cars-div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+.no-cars-div h3 img{
+    margin: 10px;
+    align-items: center;
+}
+.no-cars-div img{
+    margin-left: 20px;
+}
+.no-order-div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.no-order-div h6 img{
+    margin: 10px;
+    align-items: center;
+}
+.no-order-div img{
+    margin-left: 10px;
+}

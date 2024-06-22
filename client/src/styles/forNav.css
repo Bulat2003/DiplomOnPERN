@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+
+}
+.main-content-container {
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-navigation-bar {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+}
+.brand-heading-text-style {
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #373E40;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-links-container {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.main-title-text-style,
+.main-section-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #373E40;
+    text-decoration: none;
+}
+
+.reg-auth-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-button-style {
+    border: 2px solid rgba(55, 62, 64, 0.5); /* Прозрачная граница */
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: white;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    color: #373E40;
+    transition: background-color 0.3s ease;
+}
+.reg{
+    margin-right: 15px;
+}
+
+/*Наведение*/
+
+.login-button-style:hover {
+    background-color: #488286;
+    color: white;
+    border-color: #488286;
+}
+
+.main-title-text-style:hover {
+    color: #488286;
+    cursor: pointer;
+}
+
+.main-section-title:hover {
+    color: #488286;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,54 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование элементов по горизонтали */
+}
+
+.manager-label p{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #373E40;
+    margin-bottom: 100px; /* Отступ между .manager-label и .manager-input */
+}
+
+.manager-input {
+    display: grid;
+    justify-content: center; /* Центрирование элементов по горизонтали */
+    gap: 50px; /* Отступ между кнопками */
+}
+
+.leave {
+    text-align: center;
+    margin-top: 200px; /* Отступ сверху для .leave */
+}
+.button {
+    background-color: #488286;
+    width: 200px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #366767;
+}
+
+.for-delete {
+    background-color: transparent; /* Прозрачный фон */
+    border: 1px solid #488286; /* Зеленая граница */
+    color: #488286; /* Зеленый текст */
+    border-radius: 25px;
+    width: 200px;
+    padding: 10px 20px;
+}
+
+.for-delete:hover {
+    background-color: #488286; /* Зеленый фон при наведении */
+    color: white; /* Белый текст при наведении */
+}
+
